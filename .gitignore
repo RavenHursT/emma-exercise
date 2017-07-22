@@ -1,0 +1,6 @@
+node_modules
+**/*.txt
+dist
+npm*.log
+.idea
+.DS_Store

@@ -1,0 +1,184 @@
+{
+  "name": "profiles",
+  "columns": {
+    "user_id": {
+      "type": "SERIAL PRIMARY KEY"
+    },
+    "public": {
+      "type": "BOOLEAN"
+    },
+    "completion_percentage": {
+      "type": "INTEGER",
+      "constraint": "CHECK (completion_percentage >= 0 AND completion_percentage <= 100)"
+    },
+    "gender": {
+      "type": "BOOLEAN"
+    },
+    "region": {
+      "type": "VARCHAR(120)"
+    },
+    "last_login": {
+      "type": "TIMESTAMP"
+    },
+    "registration": {
+      "type": "TIMESTAMP"
+    },
+    "age": {
+      "type": "INTEGER",
+      "constraint": "CHECK (age >= 0)"
+    },
+    "body": {
+      "type": "VARCHAR(120)"
+    },
+    "I_am_working_in_field": {
+      "type": "VARCHAR(120)"
+    },
+    "spoken_languages": {
+      "type": "VARCHAR(120)"
+    },
+    "hobbies": {
+      "type": "VARCHAR(120)"
+    },
+    "I_most_enjoy_good_food": {
+      "type": "VARCHAR(120)"
+    },
+    "pets": {
+      "type": "VARCHAR(120)"
+    },
+    "body_type": {
+      "type": "VARCHAR(120)"
+    },
+    "my_eyesight": {
+      "type": "VARCHAR(120)"
+    },
+    "eye_color": {
+      "type": "VARCHAR(120)"
+    },
+    "hair_color": {
+      "type": "VARCHAR(120)"
+    },
+    "hair_type": {
+      "type": "VARCHAR(120)"
+    },
+    "completed_level_of_education": {
+      "type": "VARCHAR(120)"
+    },
+    "favourite_color": {
+      "type": "VARCHAR(120)"
+    },
+    "relation_to_smoking": {
+      "type": "VARCHAR(120)"
+    },
+    "relation_to_alcohol": {
+      "type": "VARCHAR(120)"
+    },
+    "sign_in_zodiac": {
+      "type": "VARCHAR(120)"
+    },
+    "on_pokec_i_am_looking_for": {
+      "type": "VARCHAR(120)"
+    },
+    "love_is_for_me": {
+      "type": "VARCHAR(120)"
+    },
+    "relation_to_casual_sex": {
+      "type": "VARCHAR(120)"
+    },
+    "my_partner_should_be": {
+      "type": "VARCHAR(120)"
+    },
+    "marital_status": {
+      "type": "VARCHAR(120)"
+    },
+    "children": {
+      "type": "VARCHAR(120)"
+    },
+    "relation_to_children": {
+      "type": "VARCHAR(120)"
+    },
+    "I_like_movies": {
+      "type": "VARCHAR(120)"
+    },
+    "I_like_watching_movie": {
+      "type": "VARCHAR(120)"
+    },
+    "I_like_music": {
+      "type": "VARCHAR(120)"
+    },
+    "I_mostly_like_listening_to_music": {
+      "type": "VARCHAR(120)"
+    },
+    "the_idea_of_good_evening": {
+      "type": "VARCHAR(120)"
+    },
+    "I_like_specialties_from_kitchen": {
+      "type": "VARCHAR(120)"
+    },
+    "fun": {
+      "type": "VARCHAR(120)"
+    },
+    "I_am_going_to_concerts": {
+      "type": "VARCHAR(120)"
+    },
+    "my_active_sports": {
+      "type": "VARCHAR(120)"
+    },
+    "my_passive_sports": {
+      "type": "VARCHAR(120)"
+    },
+    "profession": {
+      "type": "VARCHAR(120)"
+    },
+    "I_like_books": {
+      "type": "VARCHAR(120)"
+    },
+    "life_style": {
+      "type": "VARCHAR(120)"
+    },
+    "music": {
+      "type": "VARCHAR(120)"
+    },
+    "cars": {
+      "type": "VARCHAR(120)"
+    },
+    "politics": {
+      "type": "VARCHAR(120)"
+    },
+    "relationships": {
+      "type": "VARCHAR(120)"
+    },
+    "art_culture": {
+      "type": "VARCHAR(120)"
+    },
+    "hobbies_interests": {
+      "type": "VARCHAR(120)"
+    },
+    "science_technologies": {
+      "type": "VARCHAR(120)"
+    },
+    "computers_internet": {
+      "type": "VARCHAR(120)"
+    },
+    "education": {
+      "type": "VARCHAR(120)"
+    },
+    "sport": {
+      "type": "VARCHAR(120)"
+    },
+    "movies": {
+      "type": "VARCHAR(120)"
+    },
+    "travelling": {
+      "type": "VARCHAR(120)"
+    },
+    "health": {
+      "type": "VARCHAR(120)"
+    },
+    "companies_brands": {
+      "type": "VARCHAR(120)"
+    },
+    "more": {
+      "type": "VARCHAR(120)"
+    }
+  }
+}

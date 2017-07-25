@@ -1,6 +1,7 @@
 {
   "user": "postgres",
+  "password": false,
   "port": "5432",
   "host": "localhost",
-  "databaseName": "pokec"
+  "database": "pokec"
 }

@@ -2,7 +2,7 @@
   "name": "profiles",
   "columns": {
     "user_id": {
-      "type": "SERIAL PRIMARY KEY"
+      "type": "INTEGER PRIMARY KEY"
     },
     "public": {
       "type": "BOOLEAN"
@@ -15,7 +15,7 @@
       "type": "BOOLEAN"
     },
     "region": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "last_login": {
       "type": "TIMESTAMP"
@@ -28,157 +28,160 @@
       "constraint": "CHECK (age >= 0)"
     },
     "body": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
-    "I_am_working_in_field": {
-      "type": "VARCHAR(120)"
+    "i_am_working_in_field": {
+      "type": "TEXT"
     },
     "spoken_languages": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "hobbies": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
-    "I_most_enjoy_good_food": {
-      "type": "VARCHAR(120)"
+    "i_most_enjoy_good_food": {
+      "type": "TEXT"
     },
     "pets": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "body_type": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "my_eyesight": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "eye_color": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "hair_color": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "hair_type": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "completed_level_of_education": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "favourite_color": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "relation_to_smoking": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "relation_to_alcohol": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "sign_in_zodiac": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "on_pokec_i_am_looking_for": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "love_is_for_me": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "relation_to_casual_sex": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "my_partner_should_be": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "marital_status": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "children": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "relation_to_children": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
-    "I_like_movies": {
-      "type": "VARCHAR(120)"
+    "i_like_movies": {
+      "type": "TEXT"
     },
-    "I_like_watching_movie": {
-      "type": "VARCHAR(120)"
+    "i_like_watching_movie": {
+      "type": "TEXT"
     },
-    "I_like_music": {
-      "type": "VARCHAR(120)"
+    "i_like_music": {
+      "type": "TEXT"
     },
-    "I_mostly_like_listening_to_music": {
-      "type": "VARCHAR(120)"
+    "i_mostly_like_listening_to_music": {
+      "type": "TEXT"
     },
     "the_idea_of_good_evening": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
-    "I_like_specialties_from_kitchen": {
-      "type": "VARCHAR(120)"
+    "i_like_specialties_from_kitchen": {
+      "type": "TEXT"
     },
     "fun": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
-    "I_am_going_to_concerts": {
-      "type": "VARCHAR(120)"
+    "i_am_going_to_concerts": {
+      "type": "TEXT"
     },
     "my_active_sports": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "my_passive_sports": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "profession": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
-    "I_like_books": {
-      "type": "VARCHAR(120)"
+    "i_like_books": {
+      "type": "TEXT"
     },
     "life_style": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "music": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "cars": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "politics": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "relationships": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "art_culture": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "hobbies_interests": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "science_technologies": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "computers_internet": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "education": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "sport": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "movies": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "travelling": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "health": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "companies_brands": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
     },
     "more": {
-      "type": "VARCHAR(120)"
+      "type": "TEXT"
+    },
+    "more_two": {
+      "type": "TEXT"
     }
   }
 }

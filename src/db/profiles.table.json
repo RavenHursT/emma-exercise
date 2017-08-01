@@ -179,9 +179,6 @@
     },
     "more": {
       "type": "TEXT"
-    },
-    "more_two": {
-      "type": "TEXT"
     }
   }
 }
